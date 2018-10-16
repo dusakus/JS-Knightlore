@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JS_Knight's Lore</title>
+        
+        <!-- uWebgine -->
+        <script src="res/js/uW1/core.js"></script>
+        <script src="res/js/uW1/D.js"></script>
+        <script src="res/js/uW1/M.js"></script>
+        <script src="res/js/uW1/R.js"></script>
+        <script src="res/js/uW1/randomparts.js"></script>
+        <script src="res/js/uW1/userGraphics.js"></script>
+        
+        
+        <!-- Game content -->
+        <script src="res/js/game/struct.js"></script>
+        <script src="res/map.js"></script>
+        <script src="res/js/game/logic_init.js"></script>
+        <script src="res/js/game/logic_play.js"></script>
+        <script src="res/js/game/logic_enterRoom.js"></script>
+        <script src="res/js/game/logic_homeScreen.js"></script>
+        <script src="res/js/game/logic_crash.js"></script>
+        
+        <!-- Sap player -->
+        <script type="text/javascript" src="res/js/asap/resampler.js"> </script>
+        <script type="text/javascript" src="res/js/asap/swfobject.js"> </script>
+        <script type="text/javascript" src="res/js/asap/XAudioServer.js"> </script>
+        <script type="text/javascript" src="res/js/asap/asap.js"> </script>
+        <script type="text/javascript" src="res/js/asap/asapweb.js"> </script>
+        <script type="text/javascript" src="res/js/asap/binaryHttpRequest.js"> </script>
+        
+        <!-- LZMA lib -->
+        <script type="text/javascript" src="res/js/lzstring.js"> </script>
+        
+    </head>
+    <body style="width:100%; height:100%; margin: 0; background-color: black">
+        <div style="width:256px; height:192px; position: absolute; top: calc(50% - 96px); left: calc(50% - 128px); background-color:#000000" id="uWcanvasholder"></div>
+        
+        <script>uE.start();</script>
+    </body>
+</html>
